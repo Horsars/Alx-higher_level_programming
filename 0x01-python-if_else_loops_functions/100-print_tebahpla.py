@@ -5,4 +5,4 @@ for i in reversed(range(97, 123)):
         strtmp += chr(i)
     else:
         strtmp += chr(i-32)
-    print("{}".format(strtmp), end="")
+print("{}".format(strtmp), end="")
