@@ -12,8 +12,8 @@ def safe_function(fct, *args):
     """
     from sys import stderr
     try:
-        return fct(*args)    
-    except ZeroDivisionError as err:                         
+        return fct(*args)
+    except ZeroDivisionError as err:
         print('Exception: {}'.format(err), file=stderr)
     except ValueError as va:
         print('Exception: {}'.format(va), file=stderr)
